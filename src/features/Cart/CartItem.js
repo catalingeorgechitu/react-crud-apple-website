@@ -36,9 +36,15 @@ export function CartItem({ product }) {
         />
         <div>
           <h1>
-            <strong>{product.name}</strong>
+            <strong>
+              {product.name}, {product.capacity}, {product.operatingsys},{" "}
+              {product.camera}, {product.color}
+            </strong>
           </h1>
-          <h2>{product.color}</h2>
+          <h2>
+            Color: {product.color}, PPI: {product.ppi}, Weight: {product.weight}
+            , Resolution: {product.resolution}
+          </h2>
         </div>
         <div>
           <h2>{product.price} lei</h2>

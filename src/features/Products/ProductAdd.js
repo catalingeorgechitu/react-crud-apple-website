@@ -52,7 +52,7 @@ export function ProductAdd() {
         />
         <br /> */}
 
-        <label htmlFor="productCode">Product Code: </label>
+        {/* <label htmlFor="productCode">Product Code: </label>
         <input
           type="text"
           id="productCode"
@@ -60,7 +60,7 @@ export function ProductAdd() {
           value={product.productCode}
           onChange={handleInputChange}
         />
-        <br />
+        <br /> */}
 
         <label htmlFor="name">Product name: </label>
         <input
