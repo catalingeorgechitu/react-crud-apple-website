@@ -41,12 +41,14 @@ article {
 
 .product-article-details {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   align-items: center;
 }
 
 @media (max-width: 640px) {
+  .product-article-details,
+  .cart-article,
   .products-container,
   .mac-container {
     grid-template-columns: auto;

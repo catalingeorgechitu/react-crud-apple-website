@@ -81,20 +81,6 @@ export function ProductDetails() {
           alt={`Poster for ${product.name}`}
         />
         <div>
-          <h1 className="text-xl">
-            <strong>{product.price} lei</strong>
-          </h1>
-          <div>
-            {token && (
-              <button
-                className="button-apple button-margin"
-                onClick={handleAddToCart}
-              >
-                Add to cart
-              </button>
-            )}
-          </div>
-
           <h1 className="text-left">
             <strong>Specifications:</strong>
             <ul>
@@ -110,6 +96,21 @@ export function ProductDetails() {
               <li>Memory: {product.capacity}</li>
             </ul>
           </h1>
+        </div>
+        <div className="price-article-details">
+          <h1 className="text-xl">
+            <strong>{product.price} lei</strong>
+          </h1>
+          <div>
+            {token && (
+              <button
+                className="button-apple button-margin"
+                onClick={handleAddToCart}
+              >
+                Add to cart
+              </button>
+            )}
+          </div>
         </div>
       </article>
 

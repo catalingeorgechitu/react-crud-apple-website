@@ -33,16 +33,27 @@ export function Nav() {
           <CustomNavLink to="/macs">Mac</CustomNavLink>
         </li>
 
-        <li>
-          <CustomNavLink to="/cart">
-            <i className="mr-auto fa-solid fa-bag-shopping"></i>
-          </CustomNavLink>
-        </li>
-        <li>
+        {user && (
+          <li>
+            <CustomNavLink to="/cart">
+              <i className="mr-auto fa-solid fa-bag-shopping"></i>
+            </CustomNavLink>
+          </li>
+        )}
+
+        {/* <li>
           <CustomNavLink to="/settings">
             <i className="fa-solid fa-gear"></i>
           </CustomNavLink>
-        </li>
+        </li> */}
+
+        {user && (
+          <li>
+            <CustomNavLink to="/menu">
+              <i className="fa-solid fa-bars"></i>
+            </CustomNavLink>
+          </li>
+        )}
 
         {user && (
           <li className="p-3 ml-auto">
@@ -61,7 +72,7 @@ export function Nav() {
         )}
         {!user && (
           <>
-            <li className="ml-auto">
+            <li className="ml-auto px-0 py-0 mx-0 my-0">
               <CustomNavLink to="/login">Login</CustomNavLink>
             </li>
             <li>

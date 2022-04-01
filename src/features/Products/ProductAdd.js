@@ -41,9 +41,10 @@ export function ProductAdd() {
     <>
       {message && <strong>{message}</strong>}
 
-      <form onSubmit={handleSubmit}>
-        {/* <label htmlFor="userId">userId: </label> */}
-        {/* <input
+      {user.role === "admin" && (
+        <form onSubmit={handleSubmit}>
+          {/* <label htmlFor="userId">userId: </label> */}
+          {/* <input
           type="hidden"
           id="userId"
           name="userId"
@@ -52,7 +53,7 @@ export function ProductAdd() {
         />
         <br /> */}
 
-        {/* <label htmlFor="productCode">Product Code: </label>
+          {/* <label htmlFor="productCode">Product Code: </label>
         <input
           type="text"
           id="productCode"
@@ -62,63 +63,69 @@ export function ProductAdd() {
         />
         <br /> */}
 
-        <label htmlFor="name">Product name: </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={product.name}
-          onChange={handleInputChange}
-        />
-        <br />
+          <label htmlFor="name">Product name: </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={product.name}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
 
-        <label htmlFor="color">Color: </label>
-        <input
-          type="text"
-          id="color"
-          name="color"
-          value={product.color}
-          onChange={handleInputChange}
-        />
-        <br />
+          <label htmlFor="color">Color: </label>
+          <input
+            type="text"
+            id="color"
+            name="color"
+            value={product.color}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
 
-        <label htmlFor="image">Product image: </label>
-        <input
-          type="text"
-          id="image"
-          name="image"
-          value={product.image}
-          onChange={handleInputChange}
-        />
-        <br />
+          <label htmlFor="image">Product image: </label>
+          <input
+            type="text"
+            id="image"
+            name="image"
+            value={product.image}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
 
-        <label htmlFor="price">Price: </label>
-        <input
-          type="text"
-          id="price"
-          name="price"
-          value={Number(product.price)}
-          onChange={handleInputChange}
-        />
-        <br />
+          <label htmlFor="price">Price: </label>
+          <input
+            type="text"
+            id="price"
+            name="price"
+            value={Number(product.price)}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
 
-        <label htmlFor="category">Category: </label>
-        <select
-          type="text"
-          id="category"
-          name="category"
-          onChange={handleInputChange}
-        >
-          <option defaultValue="category">Category</option>
-          <option value="phone">Phone</option>
-          <option value="mac">Mac</option>
-        </select>
-        <br />
+          <label htmlFor="category">Category: </label>
+          <select
+            type="text"
+            id="category"
+            name="category"
+            onChange={handleInputChange}
+            required
+          >
+            <option defaultValue="category">Category</option>
+            <option value="phone">Phone</option>
+            <option value="mac">Mac</option>
+          </select>
+          <br />
 
-        <button className="button-apple" type="submit">
-          Save
-        </button>
-      </form>
+          <button className="button-apple" type="submit">
+            Save
+          </button>
+        </form>
+      )}
     </>
   );
 }

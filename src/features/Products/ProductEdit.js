@@ -5,7 +5,7 @@ import { useAuthContext } from "../Auth/Auth.context";
 export function ProductEdit() {
   const { productId } = useParams();
   const [product, setProduct] = useState(null);
-  const { token } = useAuthContext();
+  const { user, token } = useAuthContext();
   const [message, setMessage] = useState("");
 
   useEffect(() => {
@@ -40,19 +40,21 @@ export function ProductEdit() {
   return (
     <>
       {message && <strong>{message}</strong>}
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Product name:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={product.name}
-          onChange={handleInputChange}
-        />
-        <button className="button-apple" type="submit">
-          Save
-        </button>
-      </form>
+      {user.role === "admin" && (
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="name">Product name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={product.name}
+            onChange={handleInputChange}
+          />
+          <button className="button-apple" type="submit">
+            Save
+          </button>
+        </form>
+      )}
     </>
   );
 }

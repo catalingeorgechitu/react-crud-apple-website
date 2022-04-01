@@ -25,6 +25,8 @@ import { MacList } from "./features/Mac/macList";
 // import { MacAdd } from "./features/Mac/macAdd";
 import { HomePageProducts } from "./features/Home/HomePageProducts";
 import { Settings } from "./features/Settings/Settings";
+import { Orders } from "./features/Orders/Orders";
+import { Menu } from "./features/Menu/Menu";
 
 export function App() {
   return (
@@ -105,6 +107,25 @@ export function App() {
                 </AuthGuard>
               }
             />
+
+            <Route
+              path="menu"
+              element={
+                <AuthGuard>
+                  <Menu />
+                </AuthGuard>
+              }
+            />
+
+            <Route
+              path="orders"
+              element={
+                <AuthGuard>
+                  <Orders />
+                </AuthGuard>
+              }
+            />
+
             {/* ----- To be deleted -----  */}
             <Route
               path="counter"

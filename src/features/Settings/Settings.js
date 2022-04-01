@@ -43,6 +43,8 @@ export function Settings() {
   return (
     <>
       {message && <strong>{message}</strong>}
+      <h1 className="text-xl"> Settings</h1>
+      <br />
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">Email: </label>
         <input
