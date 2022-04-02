@@ -67,7 +67,7 @@ export function ProductDetails() {
 
   return (
     <>
-      {message && <strong className="text-xl">{message}</strong>}
+      {message && <strong className="text-xl text-green-600">{message}</strong>}
       <h1 className="product-title-details text-2xl m-1">
         <strong>
           {product.name}, {product.capacity}, {product.operatingsys},{" "}

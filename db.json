@@ -11,10 +11,10 @@
     },
     {
       "email": "a@a.com",
-      "password": "$2a$10$OvK9eHTenvpKzZklCUthpOKHXxIGwDLpsNZpknRI93oNhEd/.WGrG",
-      "firstName": "Ionut",
+      "password": "$2a$10$q7FwzYLG0SeF8O/p2gEUJ.sjKlp69UvMGPvklnZS.BNiMZA/YWv3K",
+      "firstName": "Catalin",
       "lastName": "Popescu",
-      "adress": "Str. Mihai Eminescu, Nr. 25, Bl. 3, Ap. 50",
+      "adress": "Str. Mihai Eminescu, Nr. 25, Bl. 5, Sc. 2, Ap. 27",
       "role": "client",
       "id": 4
     },
@@ -584,6 +584,42 @@
       "resolution": "4480 x 2520",
       "capacity": "256GB",
       "id": 5
+    },
+    {
+      "name": "iPhone XS",
+      "color": "Gold",
+      "productCode": 8,
+      "image": "https://live.staticflickr.com/65535/51956837256_7c5eb4ec86.jpg",
+      "price": 2999,
+      "category": "phone",
+      "userId": 4,
+      "operatingsys": "iOS 12",
+      "nuclee": "6",
+      "tech": "4G",
+      "weight": "177 g",
+      "ppi": "458",
+      "camera": "12MP",
+      "resolution": "1125 x 2436",
+      "capacity": "64GB",
+      "id": 6
+    },
+    {
+      "name": "MacBook Air",
+      "color": "Brown",
+      "productCode": 9,
+      "image": "https://live.staticflickr.com/65535/51956920723_c1c518d690_w.jpg",
+      "price": 4799,
+      "category": "mac",
+      "userId": 4,
+      "operatingsys": "Mac OS",
+      "nuclee": "8",
+      "tech": "802.11 ac",
+      "weight": "1.29 Kg",
+      "ppi": "227",
+      "camera": "HD",
+      "resolution": "2560 x 1600",
+      "capacity": "256GB",
+      "id": 7
     }
   ],
   "products": [
@@ -885,7 +921,13 @@
       "price": "207.00",
       "material": "Frozen",
       "color": "gold",
-      "tags": ["Small", "Licensed", "Tasty", "Intelligent", "Gorgeous"],
+      "tags": [
+        "Small",
+        "Licensed",
+        "Tasty",
+        "Intelligent",
+        "Gorgeous"
+      ],
       "categoryId": 2
     },
     {
@@ -896,7 +938,13 @@
       "price": "994.00",
       "material": "Plastic",
       "color": "olive",
-      "tags": ["Practical", "Handcrafted", "Generic", "Gorgeous", "Licensed"],
+      "tags": [
+        "Practical",
+        "Handcrafted",
+        "Generic",
+        "Gorgeous",
+        "Licensed"
+      ],
       "categoryId": 4
     },
     {
@@ -907,7 +955,13 @@
       "price": "328.00",
       "material": "Soft",
       "color": "azure",
-      "tags": ["Small", "Sleek", "Generic", "Incredible", "Intelligent"],
+      "tags": [
+        "Small",
+        "Sleek",
+        "Generic",
+        "Incredible",
+        "Intelligent"
+      ],
       "categoryId": 5
     },
     {
@@ -935,7 +989,11 @@
       "price": "813.00",
       "material": "Steel",
       "color": "gold",
-      "tags": ["Unbranded", "Rustic", "Ergonomic"],
+      "tags": [
+        "Unbranded",
+        "Rustic",
+        "Ergonomic"
+      ],
       "categoryId": 1
     },
     {
@@ -946,7 +1004,11 @@
       "price": "977.00",
       "material": "Wooden",
       "color": "fuchsia",
-      "tags": ["Fantastic", "Handcrafted", "Small"],
+      "tags": [
+        "Fantastic",
+        "Handcrafted",
+        "Small"
+      ],
       "categoryId": 4
     },
     {
@@ -957,7 +1019,11 @@
       "price": "236.00",
       "material": "Frozen",
       "color": "gold",
-      "tags": ["Intelligent", "Generic", "Rustic"],
+      "tags": [
+        "Intelligent",
+        "Generic",
+        "Rustic"
+      ],
       "categoryId": 1
     },
     {
@@ -968,7 +1034,13 @@
       "price": "225.00",
       "material": "Concrete",
       "color": "lime",
-      "tags": ["Gorgeous", "Gorgeous", "Fantastic", "Ergonomic", "Handcrafted"],
+      "tags": [
+        "Gorgeous",
+        "Gorgeous",
+        "Fantastic",
+        "Ergonomic",
+        "Handcrafted"
+      ],
       "categoryId": 4
     },
     {
@@ -979,7 +1051,11 @@
       "price": "453.00",
       "material": "Soft",
       "color": "grey",
-      "tags": ["Gorgeous", "Refined", "Generic"],
+      "tags": [
+        "Gorgeous",
+        "Refined",
+        "Generic"
+      ],
       "categoryId": 3
     },
     {
@@ -990,7 +1066,13 @@
       "price": "2.00",
       "material": "Frozen",
       "color": "orange",
-      "tags": ["Tasty", "Licensed", "Rustic", "Small", "Awesome"],
+      "tags": [
+        "Tasty",
+        "Licensed",
+        "Rustic",
+        "Small",
+        "Awesome"
+      ],
       "categoryId": 3
     }
   ],
