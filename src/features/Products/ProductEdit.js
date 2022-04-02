@@ -42,14 +42,164 @@ export function ProductEdit() {
       {message && <strong>{message}</strong>}
       {user.role === "admin" && (
         <form onSubmit={handleSubmit}>
-          <label htmlFor="name">Product name:</label>
+          <label htmlFor="name">Product name: </label>
           <input
+            className="m-1"
             type="text"
             id="name"
             name="name"
             value={product.name}
             onChange={handleInputChange}
+            required
           />
+          <br />
+
+          <label htmlFor="color">Color: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="color"
+            name="color"
+            value={product.color}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="image">Product image: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="image"
+            name="image"
+            value={product.image}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="price">Price: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="price"
+            name="price"
+            value={Number(product.price)}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="category">Category: </label>
+          <select
+            type="text"
+            id="category"
+            name="category"
+            onChange={handleInputChange}
+            required
+          >
+            <option defaultValue="category">Category</option>
+            <option value="phone">Phone</option>
+            <option value="mac">Mac</option>
+          </select>
+          <br />
+
+          <label htmlFor="operatingsys">Operating System: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="operatingsys"
+            name="operatingsys"
+            value={product.operatingsys}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="nuclee">CPU Cores: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="nuclee"
+            name="nuclee"
+            value={product.nuclee}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="tech">Technology: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="tech"
+            name="tech"
+            value={product.tech}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="weight">Weight: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="weight"
+            name="weight"
+            value={product.weight}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="ppi">PPI: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="ppi"
+            name="ppi"
+            value={product.ppi}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="camera">Camera: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="camera"
+            name="camera"
+            value={product.camera}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="resolution">Resolution: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="resolution"
+            name="resolution"
+            value={product.resolution}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="capacity">Memory: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="capacity"
+            name="capacity"
+            value={product.capacity}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
           <button className="button-apple" type="submit">
             Save
           </button>

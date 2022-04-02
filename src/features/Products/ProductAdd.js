@@ -10,6 +10,14 @@ export function ProductAdd() {
     image: "",
     price: "",
     category: "",
+    operatingsys: "",
+    nuclee: "0",
+    tech: "",
+    weight: "",
+    ppi: "",
+    camera: "",
+    resolution: "",
+    capacity: "",
   });
   const { user, token } = useAuthContext();
   const [message, setMessage] = useState("");
@@ -65,6 +73,7 @@ export function ProductAdd() {
 
           <label htmlFor="name">Product name: </label>
           <input
+            className="m-1"
             type="text"
             id="name"
             name="name"
@@ -76,6 +85,7 @@ export function ProductAdd() {
 
           <label htmlFor="color">Color: </label>
           <input
+            className="m-1"
             type="text"
             id="color"
             name="color"
@@ -87,6 +97,7 @@ export function ProductAdd() {
 
           <label htmlFor="image">Product image: </label>
           <input
+            className="m-1"
             type="text"
             id="image"
             name="image"
@@ -98,6 +109,7 @@ export function ProductAdd() {
 
           <label htmlFor="price">Price: </label>
           <input
+            className="m-1"
             type="text"
             id="price"
             name="price"
@@ -119,6 +131,102 @@ export function ProductAdd() {
             <option value="phone">Phone</option>
             <option value="mac">Mac</option>
           </select>
+          <br />
+
+          <label htmlFor="operatingsys">Operating System: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="operatingsys"
+            name="operatingsys"
+            value={product.operatingsys}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="nuclee">CPU Cores: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="nuclee"
+            name="nuclee"
+            value={product.nuclee}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="tech">Technology: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="tech"
+            name="tech"
+            value={product.tech}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="weight">Weight: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="weight"
+            name="weight"
+            value={product.weight}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="ppi">PPI: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="ppi"
+            name="ppi"
+            value={product.ppi}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="camera">Camera: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="camera"
+            name="camera"
+            value={product.camera}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="resolution">Resolution: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="resolution"
+            name="resolution"
+            value={product.resolution}
+            onChange={handleInputChange}
+            required
+          />
+          <br />
+
+          <label htmlFor="capacity">Memory: </label>
+          <input
+            className="m-1"
+            type="text"
+            id="capacity"
+            name="capacity"
+            value={product.capacity}
+            onChange={handleInputChange}
+            required
+          />
           <br />
 
           <button className="button-apple" type="submit">
