@@ -27,6 +27,7 @@ import { HomePageProducts } from "./features/Home/HomePageProducts";
 import { Settings } from "./features/Settings/Settings";
 import { Orders } from "./features/Orders/Orders";
 import { Menu } from "./features/Menu/Menu";
+import { AdminOrders } from "./features/Orders/AdminOrders";
 
 export function App() {
   return (
@@ -122,6 +123,15 @@ export function App() {
               element={
                 <AuthGuard>
                   <Orders />
+                </AuthGuard>
+              }
+            />
+
+            <Route
+              path="adminorders"
+              element={
+                <AuthGuard>
+                  <AdminOrders />
                 </AuthGuard>
               }
             />

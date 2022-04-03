@@ -62,17 +62,14 @@ article {
 .order-product-names {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 10px;
   align-items: center;
 }
 
-@media (max-width: 640px) {
-  .product-article-details,
-  .cart-article,
-  .products-container,
-  .mac-container {
-    grid-template-columns: auto;
-  }
+.order-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
 }
 
 div {
@@ -88,6 +85,15 @@ img {
   align-items: center;
 }
 
+@media (max-width: 640px) {
+  .order-list,
+  .product-article-details,
+  .cart-article,
+  .products-container,
+  .mac-container {
+    grid-template-columns: auto;
+  }
+}
 /* CSS for buttons */
 
 .button-apple {

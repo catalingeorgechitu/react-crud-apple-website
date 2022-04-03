@@ -1,21 +1,35 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import { CartItem } from "../Cart/CartItem";
 
 export function OrderItem({ order }) {
-  for (const [key, value] of Object.entries(order)) {
-    console.log(`${key}: ${value}`);
-  }
-
   return (
     <article>
-      <h1>Your order id: {order.id}</h1>
-      <Link to={`/`}>
-        {/* <h1>{order.user.name}</h1> */}
-        <h1>{order.totalPrice} lei</h1>
-        {<h1 className="order-product-names">{order.productNames}.</h1>}
-        {/* <h1>{productName}</h1> */}
-      </Link>
+      <h1>
+        <strong>ORDER ID: {order.id}</strong>
+      </h1>
+      {/* <Link className="order-list" to={`/orders/${order.id}`}> */}
+      <div className="order-list">
+        <div>
+          <h2>
+            <strong>Nr. of products: {order.productsNumber}</strong>
+          </h2>
+          {
+            <h1 className="order-product-names">
+              Products:
+              {order.productNames.map((productName) => (
+                <div key={productName}>{productName}</div>
+              ))}
+            </h1>
+          }
+        </div>
+        <div>
+          <h2>Invoiced for: {order.userName}</h2>
+          <h2>Invoiced adress: {order.userAdress}</h2>
+        </div>
+        <h1>
+          <strong>Total order price: {order.totalPrice} lei</strong>
+        </h1>
+      </div>
+      {/* </Link> */}
     </article>
   );
 }

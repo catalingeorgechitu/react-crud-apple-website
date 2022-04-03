@@ -71,24 +71,30 @@ export function Cart() {
     );
   }
 
+  console.log(products.length);
   async function placeOrder(e) {
     e.preventDefault();
+    const response = window.confirm("Do you want to place this order?");
 
-    await fetch(`http://localhost:3005/orders`, {
-      method: "POST",
-      body: JSON.stringify({
-        userId: user.id,
-        totalPrice: totalPrice,
-        productNames: productNames,
-      }),
-      headers: {
-        "Content-type": "application/json",
-        Authorization: `Bearer ${token}`,
-      },
-    });
-    setMessage("Your order has been placed");
+    if (response) {
+      await fetch(`http://localhost:3005/orders`, {
+        method: "POST",
+        body: JSON.stringify({
+          userId: user.id,
+          totalPrice: totalPrice,
+          productNames: productNames,
+          userAdress: user.adress,
+          userName: `${user.lastName} ${user.firstName}`,
+          productsNumber: products.length,
+        }),
+        headers: {
+          "Content-type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+      });
+      setMessage("Your order has been placed!");
+    }
   }
-
   return (
     <>
       {message && (

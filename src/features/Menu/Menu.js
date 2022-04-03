@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 
 export function Menu() {
   const navigate = useNavigate();
-  const { logout } = useAuthContext();
+  const { user, logout } = useAuthContext();
 
   function navigateToSettings() {
     navigate("/settings");
@@ -12,6 +12,10 @@ export function Menu() {
 
   function navigateToOrders() {
     navigate("/orders");
+  }
+
+  function navigateToAdminOrders() {
+    navigate("/adminorders");
   }
 
   return (
@@ -32,12 +36,26 @@ export function Menu() {
           Settings
         </button>
       </div>
-      <div>
-        <h1 className="text-xl mt-3">Check your last orders!</h1>
-        <button className="button-apple mx-auto" onClick={navigateToOrders}>
-          Your Orders
-        </button>
-      </div>
+
+      {user.role === "admin" && (
+        <div>
+          <h1 className="text-xl mt-3">Check all user orders</h1>
+          <button
+            className="button-apple mx-auto"
+            onClick={navigateToAdminOrders}
+          >
+            All Orders
+          </button>
+        </div>
+      )}
+      {user.role === "client" && (
+        <div>
+          <h1 className="text-xl mt-3">Check your last orders</h1>
+          <button className="button-apple mx-auto" onClick={navigateToOrders}>
+            Your Orders
+          </button>
+        </div>
+      )}
       <div>
         <h1 className="text-xl mt-3">Logout from your account</h1>
         <button className="button-apple mx-auto" onClick={logout}>
