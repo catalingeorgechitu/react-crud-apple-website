@@ -1,19 +1,21 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { CartItem } from "../Cart/CartItem";
 
-export function OrderItem(order) {
+export function OrderItem({ order }) {
+  for (const [key, value] of Object.entries(order)) {
+    console.log(`${key}: ${value}`);
+  }
+
   return (
     <article>
-      <p>Aici ar trebui sa fie produsul</p>
-      {/* <Link to={`/`}>
-        <img
-          className="lg:w-[200px] md:w-[150px] m-auto"
-          src={order.image}
-          alt={`Poster of ${order.name}`}
-        />
-        <h1>{order.user.id}</h1>
-        <h2>{order.products[0].price} lei</h2>
-      </Link> */}
+      <h1>Your order id: {order.id}</h1>
+      <Link to={`/`}>
+        {/* <h1>{order.user.name}</h1> */}
+        <h1>{order.totalPrice} lei</h1>
+        {<h1 className="order-product-names">{order.productNames}.</h1>}
+        {/* <h1>{productName}</h1> */}
+      </Link>
     </article>
   );
 }

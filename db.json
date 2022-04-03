@@ -272,280 +272,16 @@
   ],
   "orders": [
     {
-      "user": {
-        "email": "a@a.com",
-        "firstName": "Ionut",
-        "lastName": "Popescu",
-        "adress": "Str. Mihai Eminescu, Nr. 25, Bl. 3, Ap. 50",
-        "role": "client",
-        "id": 4
-      },
-      "products": [
-        {
-          "name": "iPhone 11",
-          "color": "Black",
-          "productCode": 2,
-          "image": "https://live.staticflickr.com/65535/51954272942_b725de3c9d_z.jpg",
-          "price": 2199,
-          "category": "phone",
-          "userId": 4,
-          "operatingsys": "iOS 13",
-          "nuclee": "6",
-          "tech": "4G",
-          "weight": "194 g",
-          "ppi": "326",
-          "camera": "12MP",
-          "resolution": "828 x 1792",
-          "capacity": "64GB",
-          "id": 6
-        }
-      ],
+      "userId": 4,
+      "totalPrice": 8198,
+      "productNames": ["iPhone 11", "MacBook Air Pro 13\""],
       "id": 1
     },
     {
-      "user": {
-        "email": "a@a.com",
-        "firstName": "Ionut",
-        "lastName": "Popescu",
-        "adress": "Str. Mihai Eminescu, Nr. 25, Bl. 3, Ap. 50",
-        "role": "client",
-        "id": 4
-      },
-      "products": [
-        {
-          "name": "iPhone 11",
-          "color": "Black",
-          "productCode": 2,
-          "image": "https://live.staticflickr.com/65535/51954272942_b725de3c9d_z.jpg",
-          "price": 2199,
-          "category": "phone",
-          "userId": 4,
-          "operatingsys": "iOS 13",
-          "nuclee": "6",
-          "tech": "4G",
-          "weight": "194 g",
-          "ppi": "326",
-          "camera": "12MP",
-          "resolution": "828 x 1792",
-          "capacity": "64GB",
-          "id": 6
-        },
-        {
-          "name": "iPhone 13 mini",
-          "color": "Pink",
-          "productCode": 6,
-          "image": "https://live.staticflickr.com/65535/51957416315_f00b22a29c.jpg",
-          "price": 3949,
-          "category": "phone",
-          "userId": 4,
-          "operatingsys": "iOS 15",
-          "nuclee": "6",
-          "tech": "5G",
-          "weight": "141 g",
-          "ppi": "476",
-          "camera": "12MP",
-          "resolution": "2340 x 1080",
-          "capacity": "128GB",
-          "id": 7
-        }
-      ],
+      "userId": 4,
+      "totalPrice": 2199,
+      "productNames": ["iPhone 11"],
       "id": 2
-    },
-    {
-      "user": {
-        "email": "a@a.com",
-        "firstName": "Ionut",
-        "lastName": "Popescu",
-        "adress": "Str. Mihai Eminescu, Nr. 25, Bl. 3, Ap. 50",
-        "role": "client",
-        "id": 4
-      },
-      "products": [
-        {
-          "name": "iPhone 11",
-          "color": "Black",
-          "productCode": 2,
-          "image": "https://live.staticflickr.com/65535/51954272942_b725de3c9d_z.jpg",
-          "price": 2199,
-          "category": "phone",
-          "userId": 4,
-          "operatingsys": "iOS 13",
-          "nuclee": "6",
-          "tech": "4G",
-          "weight": "194 g",
-          "ppi": "326",
-          "camera": "12MP",
-          "resolution": "828 x 1792",
-          "capacity": "64GB",
-          "id": 6
-        },
-        {
-          "name": "iPhone 13 mini",
-          "color": "Pink",
-          "productCode": 6,
-          "image": "https://live.staticflickr.com/65535/51957416315_f00b22a29c.jpg",
-          "price": 3949,
-          "category": "phone",
-          "userId": 4,
-          "operatingsys": "iOS 15",
-          "nuclee": "6",
-          "tech": "5G",
-          "weight": "141 g",
-          "ppi": "476",
-          "camera": "12MP",
-          "resolution": "2340 x 1080",
-          "capacity": "128GB",
-          "id": 7
-        },
-        {
-          "name": "MacBook Air Pro 13\"",
-          "color": "Silver",
-          "productCode": 10,
-          "image": "https://live.staticflickr.com/65535/51955869382_8bf0302ded_w.jpg",
-          "price": 5999,
-          "category": "mac",
-          "userId": 4,
-          "operatingsys": "Mac OS",
-          "nuclee": "8",
-          "tech": "802.11 ax",
-          "weight": "1.4 Kg",
-          "ppi": "227",
-          "camera": "HD",
-          "resolution": "2560 x 1600",
-          "capacity": "256GB",
-          "id": 8
-        }
-      ],
-      "id": 3
-    },
-    {
-      "user": {
-        "email": "p@p.com",
-        "firstName": "Paul",
-        "lastName": "Negoescu",
-        "id": 2,
-        "role": "client",
-        "adress": "Pitesti, Str. Centrala, Nr. 2"
-      },
-      "products": [
-        {
-          "name": "iPhone 13 Pro",
-          "color": "Blue",
-          "productCode": 5,
-          "image": "https://live.staticflickr.com/65535/51955563609_c9c3a7f437_z.jpg",
-          "price": 5479,
-          "category": "phone",
-          "userId": 2,
-          "operatingsys": "iOS 15",
-          "nuclee": "6",
-          "tech": "5G",
-          "weight": "204 g",
-          "ppi": "460",
-          "camera": "12MP",
-          "resolution": "2532 x 1170",
-          "capacity": "128GB",
-          "id": 4
-        },
-        {
-          "name": "iMac",
-          "color": "Silver",
-          "productCode": 12,
-          "image": "https://live.staticflickr.com/65535/51957157769_10313b6637_w.jpg",
-          "price": 6999,
-          "category": "mac",
-          "userId": 2,
-          "operatingsys": "Mac OS",
-          "nuclee": "16",
-          "tech": "802.11 ax",
-          "weight": "4.46 Kg",
-          "ppi": "218",
-          "camera": "HD",
-          "resolution": "4480 x 2520",
-          "capacity": "256GB",
-          "id": 5
-        }
-      ],
-      "id": 4
-    },
-    {
-      "user": {
-        "email": "p@p.com",
-        "firstName": "Paul",
-        "lastName": "Negoescu",
-        "id": 2,
-        "role": "client",
-        "adress": "Pitesti, Str. Centrala, Nr. 2"
-      },
-      "products": [
-        {
-          "name": "iPhone 13 Pro",
-          "color": "Blue",
-          "productCode": 5,
-          "image": "https://live.staticflickr.com/65535/51955563609_c9c3a7f437_z.jpg",
-          "price": 5479,
-          "category": "phone",
-          "userId": 2,
-          "operatingsys": "iOS 15",
-          "nuclee": "6",
-          "tech": "5G",
-          "weight": "204 g",
-          "ppi": "460",
-          "camera": "12MP",
-          "resolution": "2532 x 1170",
-          "capacity": "128GB",
-          "id": 4
-        },
-        {
-          "name": "iMac",
-          "color": "Silver",
-          "productCode": 12,
-          "image": "https://live.staticflickr.com/65535/51957157769_10313b6637_w.jpg",
-          "price": 6999,
-          "category": "mac",
-          "userId": 2,
-          "operatingsys": "Mac OS",
-          "nuclee": "16",
-          "tech": "802.11 ax",
-          "weight": "4.46 Kg",
-          "ppi": "218",
-          "camera": "HD",
-          "resolution": "4480 x 2520",
-          "capacity": "256GB",
-          "id": 5
-        }
-      ],
-      "id": 5
-    },
-    {
-      "user": {
-        "email": "a@a.com",
-        "firstName": "Ionut",
-        "lastName": "Popescu",
-        "adress": "Str. Mihai Eminescu, Nr. 25, Bl. 3, Ap. 50",
-        "role": "client",
-        "id": 4
-      },
-      "products": [
-        {
-          "name": "MacBook Air Pro 13\"",
-          "color": "Silver",
-          "productCode": 10,
-          "image": "https://live.staticflickr.com/65535/51955869382_8bf0302ded_w.jpg",
-          "price": 5999,
-          "category": "mac",
-          "userId": 4,
-          "operatingsys": "Mac OS",
-          "nuclee": "8",
-          "tech": "802.11 ax",
-          "weight": "1.4 Kg",
-          "ppi": "227",
-          "camera": "HD",
-          "resolution": "2560 x 1600",
-          "capacity": "256GB",
-          "id": 8
-        }
-      ],
-      "id": 6
     }
   ],
   "cart": [
@@ -586,31 +322,13 @@
       "id": 5
     },
     {
-      "name": "iPhone XS",
-      "color": "Gold",
-      "productCode": 8,
-      "image": "https://live.staticflickr.com/65535/51956837256_7c5eb4ec86.jpg",
-      "price": 2999,
-      "category": "phone",
-      "userId": 4,
-      "operatingsys": "iOS 12",
-      "nuclee": "6",
-      "tech": "4G",
-      "weight": "177 g",
-      "ppi": "458",
-      "camera": "12MP",
-      "resolution": "1125 x 2436",
-      "capacity": "64GB",
-      "id": 6
-    },
-    {
       "name": "MacBook Air",
       "color": "Brown",
       "productCode": 9,
       "image": "https://live.staticflickr.com/65535/51956920723_c1c518d690_w.jpg",
       "price": 4799,
       "category": "mac",
-      "userId": 4,
+      "userId": 5,
       "operatingsys": "Mac OS",
       "nuclee": "8",
       "tech": "802.11 ac",
@@ -620,6 +338,42 @@
       "resolution": "2560 x 1600",
       "capacity": "256GB",
       "id": 7
+    },
+    {
+      "name": "iPhone 11",
+      "color": "Black",
+      "productCode": 2,
+      "image": "https://live.staticflickr.com/65535/51954272942_b725de3c9d_z.jpg",
+      "price": 2199,
+      "category": "phone",
+      "userId": 4,
+      "operatingsys": "iOS 13",
+      "nuclee": "6",
+      "tech": "4G",
+      "weight": "194 g",
+      "ppi": "326",
+      "camera": "12MP",
+      "resolution": "828 x 1792",
+      "capacity": "64GB",
+      "id": 8
+    },
+    {
+      "name": "iPhone 13 mini",
+      "color": "Pink",
+      "productCode": 6,
+      "image": "https://live.staticflickr.com/65535/51957416315_f00b22a29c.jpg",
+      "price": 3949,
+      "category": "phone",
+      "userId": 4,
+      "operatingsys": "iOS 15",
+      "nuclee": "6",
+      "tech": "5G",
+      "weight": "141 g",
+      "ppi": "476",
+      "camera": "12MP",
+      "resolution": "2340 x 1080",
+      "capacity": "128GB",
+      "id": 9
     }
   ],
   "products": [
@@ -921,13 +675,7 @@
       "price": "207.00",
       "material": "Frozen",
       "color": "gold",
-      "tags": [
-        "Small",
-        "Licensed",
-        "Tasty",
-        "Intelligent",
-        "Gorgeous"
-      ],
+      "tags": ["Small", "Licensed", "Tasty", "Intelligent", "Gorgeous"],
       "categoryId": 2
     },
     {
@@ -938,13 +686,7 @@
       "price": "994.00",
       "material": "Plastic",
       "color": "olive",
-      "tags": [
-        "Practical",
-        "Handcrafted",
-        "Generic",
-        "Gorgeous",
-        "Licensed"
-      ],
+      "tags": ["Practical", "Handcrafted", "Generic", "Gorgeous", "Licensed"],
       "categoryId": 4
     },
     {
@@ -955,13 +697,7 @@
       "price": "328.00",
       "material": "Soft",
       "color": "azure",
-      "tags": [
-        "Small",
-        "Sleek",
-        "Generic",
-        "Incredible",
-        "Intelligent"
-      ],
+      "tags": ["Small", "Sleek", "Generic", "Incredible", "Intelligent"],
       "categoryId": 5
     },
     {
@@ -989,11 +725,7 @@
       "price": "813.00",
       "material": "Steel",
       "color": "gold",
-      "tags": [
-        "Unbranded",
-        "Rustic",
-        "Ergonomic"
-      ],
+      "tags": ["Unbranded", "Rustic", "Ergonomic"],
       "categoryId": 1
     },
     {
@@ -1004,11 +736,7 @@
       "price": "977.00",
       "material": "Wooden",
       "color": "fuchsia",
-      "tags": [
-        "Fantastic",
-        "Handcrafted",
-        "Small"
-      ],
+      "tags": ["Fantastic", "Handcrafted", "Small"],
       "categoryId": 4
     },
     {
@@ -1019,11 +747,7 @@
       "price": "236.00",
       "material": "Frozen",
       "color": "gold",
-      "tags": [
-        "Intelligent",
-        "Generic",
-        "Rustic"
-      ],
+      "tags": ["Intelligent", "Generic", "Rustic"],
       "categoryId": 1
     },
     {
@@ -1034,13 +758,7 @@
       "price": "225.00",
       "material": "Concrete",
       "color": "lime",
-      "tags": [
-        "Gorgeous",
-        "Gorgeous",
-        "Fantastic",
-        "Ergonomic",
-        "Handcrafted"
-      ],
+      "tags": ["Gorgeous", "Gorgeous", "Fantastic", "Ergonomic", "Handcrafted"],
       "categoryId": 4
     },
     {
@@ -1051,11 +769,7 @@
       "price": "453.00",
       "material": "Soft",
       "color": "grey",
-      "tags": [
-        "Gorgeous",
-        "Refined",
-        "Generic"
-      ],
+      "tags": ["Gorgeous", "Refined", "Generic"],
       "categoryId": 3
     },
     {
@@ -1066,13 +780,7 @@
       "price": "2.00",
       "material": "Frozen",
       "color": "orange",
-      "tags": [
-        "Tasty",
-        "Licensed",
-        "Rustic",
-        "Small",
-        "Awesome"
-      ],
+      "tags": ["Tasty", "Licensed", "Rustic", "Small", "Awesome"],
       "categoryId": 3
     }
   ],

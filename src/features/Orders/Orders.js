@@ -7,7 +7,7 @@ export function Orders() {
   const { user, token } = useAuthContext();
 
   useEffect(() => {
-    fetch(`http://localhost:3005/orders/`, {
+    fetch(`http://localhost:3005/orders?userId=${user.id}`, {
       headers: {
         "Content-type": "application/json",
         Authorization: `Bearer ${token}`,
@@ -19,6 +19,16 @@ export function Orders() {
 
   if (!orders) {
     return <p>Loading ...</p>;
+  }
+
+  if (orders.length === 0) {
+    return (
+      <>
+        <p>
+          <strong>You don't have any orders.</strong>
+        </p>
+      </>
+    );
   }
 
   // async function functionOne(e) {
@@ -35,12 +45,10 @@ export function Orders() {
   // }
 
   // async function functionTwo() {
-  //   for (let i = 0; i < allOrders.length; i++) {
-  //     let data = null;
-  //     if (allOrders[i].user.id === user.id) {
-  //       data = allOrders[i];
+  //   for (let i = 0; i < orders.length; i++) {
+  //     if (orders[i].user.id === user.id) {
+  //       setOrders(orders[i]);
   //     }
-  //     setOrders(data);
   //     console.log(orders);
   //   }
   // }
@@ -57,6 +65,14 @@ export function Orders() {
       {orders.map((order) => (
         <OrderItem key={order.id} order={order} />
       ))}
+
+      {/* {orders.productNames.map((productName) => (
+        <OrderItem
+          key={Math.floor(Math.random() * 9999999)}
+          productName={productName}
+        />
+      ))} */}
+
       {/* <button className="button-apple" onClick={functionOne}>
         Ce ordere am?
       </button> */}

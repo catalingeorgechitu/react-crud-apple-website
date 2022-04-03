@@ -18,7 +18,6 @@ export function CartItem({ product }) {
         },
       });
       navigate("/");
-      navigate("/cart");
     }
   }
 
