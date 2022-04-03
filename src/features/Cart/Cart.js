@@ -9,6 +9,7 @@ export function Cart() {
   const [totalPrice, setTotalPrice] = useState(null);
   const [productNames, setProductNames] = useState([]);
 
+  // Gets the items inside user's cart
   useEffect(() => {
     async function getCartItems() {
       const data = await fetch(
@@ -24,6 +25,7 @@ export function Cart() {
     getCartItems();
   }, [user.id]);
 
+  // Calculates the total price of the products inside user's cart
   useEffect(() => {
     if (products) {
       async function cartValue(data) {
@@ -37,6 +39,7 @@ export function Cart() {
     }
   }, [products]);
 
+  // Gets the {products} object and iterates through it, in order to create an array with product names
   useEffect(() => {
     if (products) {
       async function productNamesFunc(products) {
@@ -50,6 +53,7 @@ export function Cart() {
     }
   }, [products]);
 
+  // Checks the response of the fetch promise
   function handleResponse(res) {
     if (res.ok) {
       return res.json();
@@ -61,6 +65,7 @@ export function Cart() {
     return <p>Loading ...</p>;
   }
 
+  // Checks if there are any products inside user's cart
   if (products.length === 0) {
     return (
       <>
@@ -71,6 +76,7 @@ export function Cart() {
     );
   }
 
+  // Places an order with the items inside user's cart
   async function placeOrder(e) {
     e.preventDefault();
     const response = window.confirm("Do you want to place this order?");

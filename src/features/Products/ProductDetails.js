@@ -16,6 +16,7 @@ export function ProductDetails() {
       .then((data) => setProduct(data));
   }, [productId]);
 
+  // Deletes the selected product
   async function handleDelete() {
     const response = window.confirm(
       `Are you sure you want to delete this product "${product.name}"?`
@@ -30,6 +31,8 @@ export function ProductDetails() {
       navigate("/");
     }
   }
+
+  // Adds the selected product in the user's cart
   async function handleAddToCart(e) {
     e.preventDefault();
 
@@ -81,7 +84,7 @@ export function ProductDetails() {
           alt={`Poster for ${product.name}`}
         />
         <div>
-          <h1 className="text-left">
+          <h1 className="text-left ml-5">
             <strong>Specifications:</strong>
             <ul>
               <li>Product: {product.name}</li>

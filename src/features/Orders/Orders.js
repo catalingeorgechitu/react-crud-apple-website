@@ -21,6 +21,7 @@ export function Orders() {
     return <p>Loading ...</p>;
   }
 
+  // Checks if there are any orders submitted by the user
   if (orders.length === 0) {
     return (
       <>

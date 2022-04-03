@@ -21,6 +21,7 @@ export function AdminOrders() {
     return <p>Loading ...</p>;
   }
 
+  // Checks if there are any orders submitted by any user
   if (orders.length === 0) {
     return (
       <>

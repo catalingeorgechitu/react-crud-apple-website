@@ -41,7 +41,9 @@
     {
       "userId": 6,
       "totalPrice": 5999,
-      "productNames": ["MacBook Air Pro 13\""],
+      "productNames": [
+        "MacBook Air Pro 13\""
+      ],
       "userAdress": "Str. Oltenitei, Nr. 25, Bl. 2, Sc. 3, Ap. 27",
       "userName": "Andrei Mihai",
       "productsNumber": 1,
@@ -50,7 +52,9 @@
     {
       "userId": 4,
       "totalPrice": 3949,
-      "productNames": ["iPhone 13 mini"],
+      "productNames": [
+        "iPhone 13 mini"
+      ],
       "userAdress": "Str. Mihai Eminescu, Nr. 25, Bl. 5, Sc. 2, Ap. 27",
       "userName": "Popescu Catalin",
       "productsNumber": 1,
@@ -59,7 +63,10 @@
     {
       "userId": 2,
       "totalPrice": 16739,
-      "productNames": ["iPhone 12", "Pro Display XDR"],
+      "productNames": [
+        "iPhone 12",
+        "Pro Display XDR"
+      ],
       "userAdress": "Pitesti, Str. Centrala, Nr. 2",
       "userName": "Negoescu Paul",
       "productsNumber": 2,
@@ -68,7 +75,9 @@
     {
       "userId": 2,
       "totalPrice": 4199,
-      "productNames": ["iPhone 11 Pro"],
+      "productNames": [
+        "iPhone 11 Pro"
+      ],
       "userAdress": "Pitesti, Str. Centrala, Nr. 2",
       "userName": "Negoescu Paul",
       "productsNumber": 1,
@@ -77,7 +86,10 @@
     {
       "userId": 4,
       "totalPrice": 8748,
-      "productNames": ["iPhone 13 mini", "MacBook Air"],
+      "productNames": [
+        "iPhone 13 mini",
+        "MacBook Air"
+      ],
       "userAdress": "Str. Mihai Eminescu, Nr. 25, Bl. 5, Sc. 2, Ap. 27",
       "userName": "Popescu Catalin",
       "productsNumber": 2,

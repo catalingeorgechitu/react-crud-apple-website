@@ -20,6 +20,7 @@ export function Settings() {
     setUserSettings({ ...userSettings, [e.target.name]: e.target.value });
   }
 
+  // Edits user credentials
   async function handleSubmit(e) {
     e.preventDefault();
 
