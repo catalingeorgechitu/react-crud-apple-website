@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-// import { useParams } from "react-router";
 import { useAuthContext } from "../Auth/Auth.context";
 
 export function Settings() {

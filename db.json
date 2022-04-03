@@ -37,255 +37,11 @@
       "id": 6
     }
   ],
-  "movies": [
-    {
-      "title": "A Hard Day's Night",
-      "year": 1964,
-      "rated": "G",
-      "released": -173152800000,
-      "runtime": 87,
-      "genre": "Comedy, Musical",
-      "director": "Richard Lester",
-      "writer": "Alun Owen (original screenplay)",
-      "actors": "The Beatles, John Lennon, Paul McCartney, George Harrison",
-      "plot": "The Beatles--the world's most famous rock and roll band--travel from their home town of Liverpool to London to perform in a television broadcast. Along the way they must rescue Paul's unconventional grandfather from various misadventures and drummer Ringo goes missing just before the crucial concert.",
-      "language": "English, German, French",
-      "country": "UK",
-      "awards": "Nominated for 2 Oscars. Another 2 wins & 5 nominations.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjQyMGUwNzAtNTc2MC00Y2FjLThlM2ItZGRjNzM0OWVmZGYyXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
-      "ratings": [
-        {
-          "source": "Internet Movie Database",
-          "value": "7.6/10"
-        },
-        {
-          "source": "Rotten Tomatoes",
-          "value": "98%"
-        },
-        {
-          "source": "Metacritic",
-          "value": "96/100"
-        }
-      ],
-      "metascore": 96,
-      "imdbrating": 7.6,
-      "imdbvotes": 40594,
-      "imdbid": "tt0058182",
-      "type": "movie",
-      "dvd": 1470776400000,
-      "boxoffice": 1480356,
-      "production": "Proscenium Films",
-      "website": null,
-      "id": 991
-    },
-    {
-      "title": "Breakfast at Tiffany's",
-      "year": 1961,
-      "rated": "Approved",
-      "released": -259984800000,
-      "runtime": 115,
-      "genre": "Comedy, Drama, Romance",
-      "director": "Blake Edwards",
-      "writer": "Truman Capote (based on the novel by), George Axelrod (screenplay)",
-      "actors": "Audrey Hepburn, George Peppard, Patricia Neal, Buddy Ebsen",
-      "plot": "Holly Golightly is a flighty Manhattan party girl, who expects \"money for the powder room as well as for cab fare\" for her companionship. She has even gotten a lucrative once weekly job to visit notorious convict Sally Tomato in Sing Sing, she needing to report back to Sally's lawyer the weather report that Sally tells her as proof of her visits with him in return for payment. Her aspirations for glamor and wealth are epitomized by the comfort she feels at Tiffany's, the famous high end jewelry retailer where she believes nothing can ever go wrong. Her resolve for this wealth is strengthened, if not changed slightly in focus, upon news from home. Into Holly's walk-up apartment building and thus her life is Paul Varjak, a writer who Holly states reminds her of her brother Fred, who she has not seen in years and who is currently enlisted in the army. The two quickly become friends in their want for something outside of their current lot. Paul's situation is closer to Holly's than he would like to admit. Having not had anything published in over five years, he is a kept man by his wealthy married \"decorator\", Emily Eustace Failenson - who he refers to as 2E - which allows him not to write, which he no longer truly does. Eventually, Paul falls for Holly, and wants to take care of her, instead of being taken care of as is his current situation. Although Holly also seems to be falling for him, the question becomes whether Paul can fulfill Holly's life aspirations, and if not what needs to change for there even to be the possibility of a future for them.",
-      "language": "English, Portuguese, French, Japanese",
-      "country": "USA",
-      "awards": "Won 2 Oscars. Another 8 wins & 13 nominations.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNGEwMTRmZTQtMDY4Ni00MTliLTk5ZmMtOWMxYWMyMTllMDg0L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
-      "ratings": [
-        {
-          "source": "Internet Movie Database",
-          "value": "7.6/10"
-        },
-        {
-          "source": "Rotten Tomatoes",
-          "value": "89%"
-        },
-        {
-          "source": "Metacritic",
-          "value": "76/100"
-        }
-      ],
-      "metascore": 76,
-      "imdbrating": 7.6,
-      "imdbvotes": 168004,
-      "imdbid": "tt0054698",
-      "type": "movie",
-      "dvd": 1375304400000,
-      "boxoffice": null,
-      "production": "Paramount Pictures, Jurow-Shepherd",
-      "website": null,
-      "id": 992
-    },
-    {
-      "title": "Giant",
-      "year": 1956,
-      "rated": "G",
-      "released": -413517600000,
-      "runtime": 201,
-      "genre": "Drama, Western",
-      "director": "George Stevens",
-      "writer": "Edna Ferber (from the novel by), Fred Guiol (screen play), Ivan Moffat (screen play)",
-      "actors": "Elizabeth Taylor, Rock Hudson, James Dean, Carroll Baker",
-      "plot": "Texan rancher Bick Benedict visits a Maryland farm to buy a prize horse. Whilst there he meets and falls in love with the owner's daughter Leslie, they are married immediately and return to his ranch. The story of their family and its rivalry with cowboy and (later oil tycoon) Jett Rink unfolds across two generations.",
-      "language": "English, Spanish",
-      "country": "USA",
-      "awards": "Won 1 Oscar. Another 6 wins & 15 nominations.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODk3YjdjZTItOGVhYi00Mjc2LTgzMDAtMThmYTVkNTBlMWVkXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_SX300.jpg",
-      "ratings": [
-        {
-          "source": "Internet Movie Database",
-          "value": "7.6/10"
-        },
-        {
-          "source": "Rotten Tomatoes",
-          "value": "93%"
-        },
-        {
-          "source": "Metacritic",
-          "value": "84/100"
-        }
-      ],
-      "metascore": 84,
-      "imdbrating": 7.6,
-      "imdbvotes": 34398,
-      "imdbid": "tt0049261",
-      "type": "movie",
-      "dvd": 1199138400000,
-      "boxoffice": 32855818,
-      "production": "Warner Brothers/Seven Arts",
-      "website": null,
-      "id": 993
-    },
-    {
-      "title": "From Here to Eternity",
-      "year": 1953,
-      "rated": "Passed",
-      "released": -515815200000,
-      "runtime": 118,
-      "genre": "Drama, Romance, War",
-      "director": "Fred Zinnemann",
-      "writer": "Daniel Taradash (screen play), James Jones (based upon the novel by)",
-      "actors": "Burt Lancaster, Montgomery Clift, Deborah Kerr, Donna Reed",
-      "plot": "It's 1941. Robert E. Lee Prewitt has requested Army transfer and has ended up at Schofield in Hawaii. His new captain, Dana Holmes, has heard of his boxing prowess and is keen to get him to represent the company. However, 'Prew' is adamant that he doesn't box anymore, so Captain Holmes gets his subordinates to make his life a living hell. Meanwhile Sergeant Warden starts seeing the captain's wife, who has a history of seeking external relief from a troubled marriage. Prew's friend Maggio has a few altercations with the sadistic stockade Sergeant 'Fatso' Judson, and Prew begins falling in love with social club employee Lorene. Unbeknownst to anyone, the Japanese bombing of Pearl Harbor looms in the distance.",
-      "language": "English",
-      "country": "USA",
-      "awards": "Won 8 Oscars. Another 15 wins & 7 nominations.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BM2U3YzkxNGMtYWE0YS00ODk0LTk1ZGEtNjk3ZTE0MTk4MzJjXkEyXkFqcGdeQXVyNDk0MDg4NDk@._V1_SX300.jpg",
-      "ratings": [
-        {
-          "source": "Internet Movie Database",
-          "value": "7.6/10"
-        },
-        {
-          "source": "Rotten Tomatoes",
-          "value": "92%"
-        },
-        {
-          "source": "Metacritic",
-          "value": "85/100"
-        }
-      ],
-      "metascore": 85,
-      "imdbrating": 7.6,
-      "imdbvotes": 43603,
-      "imdbid": "tt0045793",
-      "type": "movie",
-      "dvd": 1334523600000,
-      "boxoffice": 36416,
-      "production": "Columbia Pictures",
-      "website": null,
-      "id": 994
-    },
-    {
-      "title": "Lifeboat",
-      "year": 1944,
-      "rated": "Not Rated",
-      "released": -818215200000,
-      "runtime": 97,
-      "genre": "Drama, War",
-      "director": "Alfred Hitchcock",
-      "writer": "John Steinbeck (by), Jo Swerling (screen play)",
-      "actors": "Tallulah Bankhead, William Bendix, Walter Slezak, Mary Anderson",
-      "plot": "In the Atlantic during WWII, a ship and a German U-boat are involved in a battle and both are sunk. The survivors from the ship gather in one of the boats. They are from a variety of backgrounds: an international journalist, a rich businessman, the radio operator, a nurse, a steward, a sailor and an engineer with communist tendencies. Trouble starts when they pull a man out of the water who turns out to be from the U-boat.",
-      "language": "English, German, French",
-      "country": "USA",
-      "awards": "Nominated for 3 Oscars. Another 3 wins.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTBmMjUyMjItYTM4ZS00MjAwLWEyOGYtYjMyZTUxN2I3OTMxXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
-      "ratings": [
-        {
-          "source": "Internet Movie Database",
-          "value": "7.6/10"
-        },
-        {
-          "source": "Rotten Tomatoes",
-          "value": "93%"
-        },
-        {
-          "source": "Metacritic",
-          "value": "78/100"
-        }
-      ],
-      "metascore": 78,
-      "imdbrating": 7.6,
-      "imdbvotes": 26656,
-      "imdbid": "tt0037017",
-      "type": "movie",
-      "dvd": 1470776400000,
-      "boxoffice": null,
-      "production": "20th Century Fox",
-      "website": null,
-      "id": 995
-    },
-    {
-      "title": "The 39 Steps",
-      "year": 1935,
-      "rated": "Approved",
-      "released": -1086231600000,
-      "runtime": 86,
-      "genre": "Crime, Mystery, Thriller",
-      "director": "Alfred Hitchcock",
-      "writer": "John Buchan (adapted from the novel by), Charles Bennett (adaptation), Ian Hay (dialogue)",
-      "actors": "Robert Donat, Madeleine Carroll, Lucie Mannheim, Godfrey Tearle",
-      "plot": "Richard Hannay is a Canadian visitor to London. At the end of \"Mr Memory\"'s show in a music hall, he meets Annabella Smith who is running away from secret agents. He accepts to hide her in his flat, but in the night she is murdered. Fearing he could be accused on the girl's murder, Hannay goes on the run to break the spy ring.",
-      "language": "English",
-      "country": "UK",
-      "awards": "1 win & 1 nomination.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTY5ODAzMTcwOF5BMl5BanBnXkFtZTcwMzYxNDYyNA@@._V1_SX300.jpg",
-      "ratings": [
-        {
-          "source": "Internet Movie Database",
-          "value": "7.6/10"
-        },
-        {
-          "source": "Rotten Tomatoes",
-          "value": "96%"
-        },
-        {
-          "source": "Metacritic",
-          "value": "93/100"
-        }
-      ],
-      "metascore": 93,
-      "imdbrating": 7.6,
-      "imdbvotes": 52245,
-      "imdbid": "tt0026029",
-      "type": "movie",
-      "dvd": 1484172000000,
-      "boxoffice": null,
-      "production": "Gaumont British Picture Corporation Ltd.",
-      "website": null,
-      "id": 996
-    }
-  ],
   "orders": [
     {
       "userId": 6,
       "totalPrice": 5999,
-      "productNames": [
-        "MacBook Air Pro 13\""
-      ],
+      "productNames": ["MacBook Air Pro 13\""],
       "userAdress": "Str. Oltenitei, Nr. 25, Bl. 2, Sc. 3, Ap. 27",
       "userName": "Andrei Mihai",
       "productsNumber": 1,
@@ -294,9 +50,7 @@
     {
       "userId": 4,
       "totalPrice": 3949,
-      "productNames": [
-        "iPhone 13 mini"
-      ],
+      "productNames": ["iPhone 13 mini"],
       "userAdress": "Str. Mihai Eminescu, Nr. 25, Bl. 5, Sc. 2, Ap. 27",
       "userName": "Popescu Catalin",
       "productsNumber": 1,
@@ -305,10 +59,7 @@
     {
       "userId": 2,
       "totalPrice": 16739,
-      "productNames": [
-        "iPhone 12",
-        "Pro Display XDR"
-      ],
+      "productNames": ["iPhone 12", "Pro Display XDR"],
       "userAdress": "Pitesti, Str. Centrala, Nr. 2",
       "userName": "Negoescu Paul",
       "productsNumber": 2,
@@ -317,13 +68,20 @@
     {
       "userId": 2,
       "totalPrice": 4199,
-      "productNames": [
-        "iPhone 11 Pro"
-      ],
+      "productNames": ["iPhone 11 Pro"],
       "userAdress": "Pitesti, Str. Centrala, Nr. 2",
       "userName": "Negoescu Paul",
       "productsNumber": 1,
       "id": 4
+    },
+    {
+      "userId": 4,
+      "totalPrice": 8748,
+      "productNames": ["iPhone 13 mini", "MacBook Air"],
+      "userAdress": "Str. Mihai Eminescu, Nr. 25, Bl. 5, Sc. 2, Ap. 27",
+      "userName": "Popescu Catalin",
+      "productsNumber": 2,
+      "id": 5
     }
   ],
   "cart": [
@@ -380,6 +138,24 @@
       "resolution": "1125 x 2436",
       "capacity": "128GB",
       "id": 3
+    },
+    {
+      "name": "MacBook Air",
+      "color": "Brown",
+      "productCode": 9,
+      "image": "https://live.staticflickr.com/65535/51956920723_c1c518d690_w.jpg",
+      "price": 4799,
+      "category": "mac",
+      "userId": 4,
+      "operatingsys": "Mac OS",
+      "nuclee": "8",
+      "tech": "802.11 ac",
+      "weight": "1.29 Kg",
+      "ppi": "227",
+      "camera": "HD",
+      "resolution": "2560 x 1600",
+      "capacity": "256GB",
+      "id": 4
     }
   ],
   "products": [
@@ -670,212 +446,6 @@
       "camera": "HD",
       "resolution": "3024 x 1964",
       "capacity": "512GB"
-    }
-  ],
-  "anotherProducts": [
-    {
-      "id": 1,
-      "userId": 2,
-      "name": "Tasty Soft Salad",
-      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-      "price": "207.00",
-      "material": "Frozen",
-      "color": "gold",
-      "tags": [
-        "Small",
-        "Licensed",
-        "Tasty",
-        "Intelligent",
-        "Gorgeous"
-      ],
-      "categoryId": 2
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "name": "Rustic Metal Towels",
-      "description": "The Football Is Good For Training And Recreational Purposes",
-      "price": "994.00",
-      "material": "Plastic",
-      "color": "olive",
-      "tags": [
-        "Practical",
-        "Handcrafted",
-        "Generic",
-        "Gorgeous",
-        "Licensed"
-      ],
-      "categoryId": 4
-    },
-    {
-      "id": 4,
-      "userId": 2,
-      "name": "Practical Fresh Tuna",
-      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-      "price": "328.00",
-      "material": "Soft",
-      "color": "azure",
-      "tags": [
-        "Small",
-        "Sleek",
-        "Generic",
-        "Incredible",
-        "Intelligent"
-      ],
-      "categoryId": 5
-    },
-    {
-      "id": 5,
-      "userId": 2,
-      "name": "Generic Soft Bike",
-      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "price": "729.00",
-      "material": "Rubber",
-      "color": "yellow",
-      "tags": [
-        "Handcrafted",
-        "Rustic",
-        "Fantastic",
-        "Incredible",
-        "Handcrafted"
-      ],
-      "categoryId": 2
-    },
-    {
-      "id": 6,
-      "userId": 2,
-      "name": "Gorgeous Cotton Car",
-      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "price": "813.00",
-      "material": "Steel",
-      "color": "gold",
-      "tags": [
-        "Unbranded",
-        "Rustic",
-        "Ergonomic"
-      ],
-      "categoryId": 1
-    },
-    {
-      "id": 7,
-      "userId": 2,
-      "name": "Intelligent Metal Shirt",
-      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-      "price": "977.00",
-      "material": "Wooden",
-      "color": "fuchsia",
-      "tags": [
-        "Fantastic",
-        "Handcrafted",
-        "Small"
-      ],
-      "categoryId": 4
-    },
-    {
-      "id": 8,
-      "userId": 2,
-      "name": "Unbranded Granite Computer",
-      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-      "price": "236.00",
-      "material": "Frozen",
-      "color": "gold",
-      "tags": [
-        "Intelligent",
-        "Generic",
-        "Rustic"
-      ],
-      "categoryId": 1
-    },
-    {
-      "id": 13,
-      "userId": 2,
-      "name": "Sleek Wooden Pizza",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "price": "225.00",
-      "material": "Concrete",
-      "color": "lime",
-      "tags": [
-        "Gorgeous",
-        "Gorgeous",
-        "Fantastic",
-        "Ergonomic",
-        "Handcrafted"
-      ],
-      "categoryId": 4
-    },
-    {
-      "id": 14,
-      "userId": 2,
-      "name": "Sleek Fresh Sausages",
-      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-      "price": "453.00",
-      "material": "Soft",
-      "color": "grey",
-      "tags": [
-        "Gorgeous",
-        "Refined",
-        "Generic"
-      ],
-      "categoryId": 3
-    },
-    {
-      "id": 16,
-      "userId": 2,
-      "name": "Rustic Fresh Tuna",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "price": "2.00",
-      "material": "Frozen",
-      "color": "orange",
-      "tags": [
-        "Tasty",
-        "Licensed",
-        "Rustic",
-        "Small",
-        "Awesome"
-      ],
-      "categoryId": 3
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "name": "Kids"
-    },
-    {
-      "id": 2,
-      "name": "Industrial"
-    },
-    {
-      "id": 3,
-      "name": "Automotive"
-    },
-    {
-      "id": 4,
-      "name": "Adults"
-    },
-    {
-      "id": 5,
-      "name": "Movies"
-    }
-  ],
-  "todos": [
-    {
-      "id": 1,
-      "title": "Buy milk",
-      "completed": true,
-      "userId": 2
-    },
-    {
-      "id": 2,
-      "title": "Buy flowers",
-      "completed": false,
-      "userId": 2
-    },
-    {
-      "id": 3,
-      "title": "Give flowers to wife",
-      "completed": false,
-      "userId": 2
     }
   ]
 }

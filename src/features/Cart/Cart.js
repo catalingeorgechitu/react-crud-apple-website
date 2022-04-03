@@ -71,7 +71,6 @@ export function Cart() {
     );
   }
 
-  console.log(products.length);
   async function placeOrder(e) {
     e.preventDefault();
     const response = window.confirm("Do you want to place this order?");

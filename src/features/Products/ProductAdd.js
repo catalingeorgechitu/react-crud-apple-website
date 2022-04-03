@@ -51,26 +51,6 @@ export function ProductAdd() {
 
       {user.role === "admin" && (
         <form onSubmit={handleSubmit}>
-          {/* <label htmlFor="userId">userId: </label> */}
-          {/* <input
-          type="hidden"
-          id="userId"
-          name="userId"
-          value={user.id}
-          onChange={handleInputChange}
-        />
-        <br /> */}
-
-          {/* <label htmlFor="productCode">Product Code: </label>
-        <input
-          type="text"
-          id="productCode"
-          name="productCode"
-          value={product.productCode}
-          onChange={handleInputChange}
-        />
-        <br /> */}
-
           <label htmlFor="name">Product name: </label>
           <input
             className="m-1"
