@@ -35,15 +35,31 @@
       "adress": "Str. Oltenitei, Nr. 25, Bl. 2, Sc. 3, Ap. 27",
       "role": "client",
       "id": 6
+    },
+    {
+      "email": "mihai.constantin@gmail.com",
+      "password": "$2a$10$oPKYJm.NIsIr.C1XD92kfeqlyf9z6a2PTL1QXHrgcAOf/GrTH83qy",
+      "firstName": "Mihai",
+      "lastName": "Constantin",
+      "adress": "Str. George Cosbuc, Nr. 2, Bl. 14, Sc. 2, Et. 1, Ap. 79",
+      "role": "client",
+      "id": 7
+    },
+    {
+      "email": "cristache.andrei@gmail.com",
+      "password": "$2a$10$fNQRT9OKD8fBO1POhXwHXuza5khdOURI7EoVurclNsm5g9i.6Iwki",
+      "firstName": "Cristache",
+      "lastName": "Andrei",
+      "adress": "Str. Mihai Eminescu, Nr. 45",
+      "role": "client",
+      "id": 8
     }
   ],
   "orders": [
     {
       "userId": 6,
       "totalPrice": 5999,
-      "productNames": [
-        "MacBook Air Pro 13\""
-      ],
+      "productNames": ["MacBook Air Pro 13\""],
       "userAdress": "Str. Oltenitei, Nr. 25, Bl. 2, Sc. 3, Ap. 27",
       "userName": "Andrei Mihai",
       "productsNumber": 1,
@@ -52,9 +68,7 @@
     {
       "userId": 4,
       "totalPrice": 3949,
-      "productNames": [
-        "iPhone 13 mini"
-      ],
+      "productNames": ["iPhone 13 mini"],
       "userAdress": "Str. Mihai Eminescu, Nr. 25, Bl. 5, Sc. 2, Ap. 27",
       "userName": "Popescu Catalin",
       "productsNumber": 1,
@@ -63,10 +77,7 @@
     {
       "userId": 2,
       "totalPrice": 16739,
-      "productNames": [
-        "iPhone 12",
-        "Pro Display XDR"
-      ],
+      "productNames": ["iPhone 12", "Pro Display XDR"],
       "userAdress": "Pitesti, Str. Centrala, Nr. 2",
       "userName": "Negoescu Paul",
       "productsNumber": 2,
@@ -75,9 +86,7 @@
     {
       "userId": 2,
       "totalPrice": 4199,
-      "productNames": [
-        "iPhone 11 Pro"
-      ],
+      "productNames": ["iPhone 11 Pro"],
       "userAdress": "Pitesti, Str. Centrala, Nr. 2",
       "userName": "Negoescu Paul",
       "productsNumber": 1,
@@ -86,14 +95,65 @@
     {
       "userId": 4,
       "totalPrice": 8748,
-      "productNames": [
-        "iPhone 13 mini",
-        "MacBook Air"
-      ],
+      "productNames": ["iPhone 13 mini", "MacBook Air"],
       "userAdress": "Str. Mihai Eminescu, Nr. 25, Bl. 5, Sc. 2, Ap. 27",
       "userName": "Popescu Catalin",
       "productsNumber": 2,
       "id": 5
+    },
+    {
+      "userId": 7,
+      "totalPrice": 10828,
+      "productNames": ["MacBook Air Pro 13\"", "iPhone 13"],
+      "userAdress": "Str. George Cosbuc, Nr. 2, Bl. 14, Sc. 2, Et. 1, Ap. 79",
+      "userName": "Constantin Mihai",
+      "productsNumber": 2,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "totalPrice": 4799,
+      "productNames": ["MacBook Air"],
+      "userAdress": "Str. Mihai Eminescu, Nr. 25, Bl. 5, Sc. 2, Ap. 27",
+      "userName": "Popescu Catalin",
+      "productsNumber": 1,
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "totalPrice": 9198,
+      "productNames": ["iPhone 11", "iMac"],
+      "userAdress": "Str. Mihai Eminescu, Nr. 25, Bl. 5, Sc. 2, Ap. 27",
+      "userName": "Popescu Catalin",
+      "productsNumber": 2,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "totalPrice": 4199,
+      "productNames": ["iPhone 11 Pro"],
+      "userAdress": "Pitesti, Str. Centrala, Nr. 2",
+      "userName": "Negoescu Paul",
+      "productsNumber": 1,
+      "id": 9
+    },
+    {
+      "userId": 8,
+      "totalPrice": 2199,
+      "productNames": ["iPhone 11"],
+      "userAdress": "Str. Principala, Nr. 9",
+      "userName": "Andrei Cristacghe",
+      "productsNumber": 1,
+      "id": 10
+    },
+    {
+      "userId": 8,
+      "totalPrice": 14598,
+      "productNames": ["iPhone 11", "MacBook Air Pro 16\""],
+      "userAdress": "Str. Mihai Eminescu, Nr. 45",
+      "userName": "Andrei Cristache",
+      "productsNumber": 2,
+      "id": 11
     }
   ],
   "cart": [
@@ -116,24 +176,6 @@
       "id": 1
     },
     {
-      "name": "iPhone 13 mini",
-      "color": "Pink",
-      "productCode": 6,
-      "image": "https://live.staticflickr.com/65535/51957416315_f00b22a29c.jpg",
-      "price": 3949,
-      "category": "phone",
-      "userId": 4,
-      "operatingsys": "iOS 15",
-      "nuclee": "6",
-      "tech": "5G",
-      "weight": "141 g",
-      "ppi": "476",
-      "camera": "12MP",
-      "resolution": "2340 x 1080",
-      "capacity": "128GB",
-      "id": 2
-    },
-    {
       "name": "iPhone 11 Pro",
       "color": "Silver",
       "productCode": 7,
@@ -152,22 +194,112 @@
       "id": 3
     },
     {
-      "name": "MacBook Air",
-      "color": "Brown",
-      "productCode": 9,
-      "image": "https://live.staticflickr.com/65535/51956920723_c1c518d690_w.jpg",
-      "price": 4799,
+      "name": "MacBook Air Pro 13\"",
+      "color": "Silver",
+      "productCode": 10,
+      "image": "https://live.staticflickr.com/65535/51955869382_8bf0302ded_w.jpg",
+      "price": 5999,
       "category": "mac",
-      "userId": 4,
+      "userId": 7,
       "operatingsys": "Mac OS",
       "nuclee": "8",
-      "tech": "802.11 ac",
-      "weight": "1.29 Kg",
+      "tech": "802.11 ax",
+      "weight": "1.4 Kg",
       "ppi": "227",
       "camera": "HD",
       "resolution": "2560 x 1600",
       "capacity": "256GB",
-      "id": 4
+      "id": 5
+    },
+    {
+      "name": "iPhone 13",
+      "color": "Graphite",
+      "productCode": 4,
+      "image": "https://live.staticflickr.com/65535/51955263306_83ca19cf8a_z.jpg",
+      "price": 4829,
+      "category": "phone",
+      "userId": 7,
+      "operatingsys": "iOS 15",
+      "nuclee": "6",
+      "tech": "5G",
+      "weight": "174 g",
+      "ppi": "460",
+      "camera": "12MP",
+      "resolution": "2532 x 1170",
+      "capacity": "128GB",
+      "id": 6
+    },
+    {
+      "name": "iPhone 11",
+      "color": "Black",
+      "productCode": 2,
+      "image": "https://live.staticflickr.com/65535/51954272942_b725de3c9d_z.jpg",
+      "price": 2199,
+      "category": "phone",
+      "userId": 4,
+      "operatingsys": "iOS 13",
+      "nuclee": "6",
+      "tech": "4G",
+      "weight": "194 g",
+      "ppi": "326",
+      "camera": "12MP",
+      "resolution": "828 x 1792",
+      "capacity": "64GB",
+      "id": 7
+    },
+    {
+      "name": "iMac",
+      "color": "Silver",
+      "productCode": 12,
+      "image": "https://live.staticflickr.com/65535/51957157769_10313b6637_w.jpg",
+      "price": 6999,
+      "category": "mac",
+      "userId": 4,
+      "operatingsys": "Mac OS",
+      "nuclee": "16",
+      "tech": "802.11 ax",
+      "weight": "4.46 Kg",
+      "ppi": "218",
+      "camera": "HD",
+      "resolution": "4480 x 2520",
+      "capacity": "256GB",
+      "id": 8
+    },
+    {
+      "name": "iPhone 11",
+      "color": "Black",
+      "productCode": 2,
+      "image": "https://live.staticflickr.com/65535/51954272942_b725de3c9d_z.jpg",
+      "price": 2199,
+      "category": "phone",
+      "userId": 8,
+      "operatingsys": "iOS 13",
+      "nuclee": "6",
+      "tech": "4G",
+      "weight": "194 g",
+      "ppi": "326",
+      "camera": "12MP",
+      "resolution": "828 x 1792",
+      "capacity": "64GB",
+      "id": 9
+    },
+    {
+      "name": "MacBook Air Pro 16\"",
+      "color": "Silver",
+      "productCode": 11,
+      "image": "https://live.staticflickr.com/65535/51957157719_28258b479c_w.jpg",
+      "price": 12399,
+      "category": "mac",
+      "userId": 8,
+      "operatingsys": "Mac OS",
+      "nuclee": "10",
+      "tech": "802.11 ax",
+      "weight": "2.1 Kg",
+      "ppi": "254",
+      "camera": "HD",
+      "resolution": "3456 x 2234",
+      "capacity": "512GB",
+      "id": 10
     }
   ],
   "products": [
@@ -178,7 +310,7 @@
       "name": "iPhone 12",
       "color": "White",
       "image": "https://live.staticflickr.com/65535/51955563619_f03d96a279.jpg",
-      "price": 4690,
+      "price": "2799",
       "category": "phone",
       "operatingsys": "iOS 14",
       "nuclee": "6",

@@ -26,7 +26,7 @@ export function CartItem({ product }) {
   }
 
   return (
-    <article>
+    <article className="article-card-in-cart">
       <Link className="cart-article" to={`/products/${product.productCode}`}>
         <img
           className="lg:w-[200px] md:w-[150px] m-auto"
