@@ -45,7 +45,7 @@ export function Settings() {
       {message && <strong>{message}</strong>}
       <h1 className="text-xl"> Settings</h1>
       <br />
-      <form onSubmit={handleSubmit}>
+      <form className="product-edit-form" onSubmit={handleSubmit}>
         <label htmlFor="email">Email: </label>
         <input
           className="m-1 p-1"

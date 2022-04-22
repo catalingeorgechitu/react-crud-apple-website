@@ -131,12 +131,13 @@ export function ProductDetails() {
 
         {token && user.role === "admin" && (
           <div>
+            <button className="button-apple button-margin">
             <Link
-              className="button-apple button-margin"
               to={`/products/${product.id}/edit`}
             >
               Edit product
             </Link>
+            </button>
           </div>
         )}
       </div>

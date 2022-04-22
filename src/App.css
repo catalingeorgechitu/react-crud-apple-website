@@ -123,9 +123,31 @@ img {
   align-items: center;
 }
 
-form {
+/* form {
   padding: 1px;
-}
+} */
+
+.product-edit-form {
+  max-width:500px;
+  margin:5px auto;
+  padding:10px;
+  border-radius:5px; }
+
+.product-edit-form>label{
+    display:block;
+    padding:2px 2px 2px;
+    text-transform:uppercase;
+    font-size:14px;
+  }
+.product-edit-form>input, .product-edit-form>textarea, .product-edit-form>select{
+    display:block;
+    width:100%;
+    border:2px solid #686868;
+    padding:5px;
+    font-size:16px;
+    border-radius:5px;
+  }
+
 
 /* Making the app responisve */
 

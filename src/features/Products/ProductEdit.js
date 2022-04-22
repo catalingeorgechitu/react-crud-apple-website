@@ -41,7 +41,7 @@ export function ProductEdit() {
     <>
       {message && <strong>{message}</strong>}
       {user.role === "admin" && (
-        <form onSubmit={handleSubmit}>
+        <form className="product-edit-form" onSubmit={handleSubmit}>
           <label htmlFor="name">Product name: </label>
           <input
             className="m-1"

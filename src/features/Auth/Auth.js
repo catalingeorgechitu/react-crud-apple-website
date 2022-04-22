@@ -70,7 +70,7 @@ export function Auth() {
     }
 
     if (!values.lastName) {
-      setErrors({ ...errors, lastName: "You need to provide a first name." });
+      setErrors({ ...errors, lastName: "You need to provide a last name." });
       hasErrors = true;
     }
 
