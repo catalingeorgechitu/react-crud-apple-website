@@ -257,24 +257,6 @@
       "id": 6
     },
     {
-      "name": "iPhone 11",
-      "color": "Black",
-      "productCode": 2,
-      "image": "https://live.staticflickr.com/65535/51954272942_b725de3c9d_z.jpg",
-      "price": 2199,
-      "category": "phone",
-      "userId": 4,
-      "operatingsys": "iOS 13",
-      "nuclee": "6",
-      "tech": "4G",
-      "weight": "194 g",
-      "ppi": "326",
-      "camera": "12MP",
-      "resolution": "828 x 1792",
-      "capacity": "64GB",
-      "id": 7
-    },
-    {
       "name": "iMac",
       "color": "Silver",
       "productCode": 12,
@@ -327,6 +309,24 @@
       "resolution": "3456 x 2234",
       "capacity": "512GB",
       "id": 10
+    },
+    {
+      "name": "iPhone 13",
+      "color": "Graphite",
+      "productCode": 4,
+      "image": "https://live.staticflickr.com/65535/51955263306_83ca19cf8a_z.jpg",
+      "price": 4829,
+      "category": "phone",
+      "userId": 4,
+      "operatingsys": "iOS 15",
+      "nuclee": "6",
+      "tech": "5G",
+      "weight": "174 g",
+      "ppi": "460",
+      "camera": "12MP",
+      "resolution": "2532 x 1170",
+      "capacity": "128GB",
+      "id": 11
     }
   ],
   "products": [

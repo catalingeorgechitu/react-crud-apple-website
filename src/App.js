@@ -16,6 +16,7 @@ import { Settings } from "./features/Settings/Settings";
 import { Orders } from "./features/Orders/Orders";
 import { Menu } from "./features/Menu/Menu";
 import { AdminOrders } from "./features/Orders/AdminOrders";
+import { WatchList } from "./features/Watches/watchList";
 
 export function App() {
   return (
@@ -51,6 +52,8 @@ export function App() {
               }
             />
             <Route path="macs" element={<MacList />} />
+
+            <Route path="watches" element={<WatchList/>}/>
 
             <Route
               path="settings"

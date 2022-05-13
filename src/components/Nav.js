@@ -12,13 +12,17 @@ export function Nav() {
           </CustomNavLink>
         </li>
 
-        <li>
+        <li className="left-side-navbar">
           <CustomNavLink to="/products">iPhones</CustomNavLink>
         </li>
 
-        <li>
+        <li className="left-side-navbar">
           <CustomNavLink to="/macs">Mac</CustomNavLink>
         </li>
+
+        {/* <li className="left-side-navbar">
+          <CustomNavLink to="/watches">Watch</CustomNavLink>
+        </li> */}
 
         {user && (
           <li className="ml-auto">

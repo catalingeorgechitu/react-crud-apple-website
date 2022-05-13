@@ -1,0 +1,15 @@
+* [33m36aba38[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Added css for forms
+* [33m38baf85[m Fixed a product name/specs altered in my presentation. Added hover effects on some containers, added increased font size when hover on some navbar elements
+* [33me9ac593[m Release v1.0
+* [33me55ebf6[m Deleted unused files and folders, cleaned some code, almost finished
+* [33mbf2081a[m Cleaned the code, removed unnecessay code and comments
+* [33mbbe0f73[m Added adminorders, fully functional Order list, fixed some code bugs, fixed css bugs
+* [33m0ed73db[m Added new feature semi-functional Order List, fided a few bugs
+* [33mab61019[m Added footer, styled footer and navbar, fixed some bugs
+* [33mc217b30[m Fixed a few features, added complete edit/delete/add product functionality
+* [33md963f23[m Added a few more features with VSCode crashed
+* [33mdd6323c[m My VSCode crashed
+* [33m6413c23[m Added more description for product details and cart items
+* [33m1b496af[m First commit
+* [33md98bbb2[m Setting up GitHub Classroom Feedback
+* [33m7530547[m GitHub Classroom Feedback
